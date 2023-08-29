@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +10,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	
 	<script src="./assets/bootstrap/bootstrap.bundle.js" async></script>
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
@@ -38,6 +39,27 @@
 	    <meta name="keywords" content="photographe, photo, évènementielle, portrait" />
     <meta name="author" content="Nina Carducci" />
 
+	<!--Ajout de Schema.org-->
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci",
+		  "description": "Photographe professionnelle basée à Bordeaux."
+		},
+		  "address": {
+			"@type": "PostalAddress",
+			"adressCountry": "FR",
+			"adressRegion": "Nouvelle-Aquitaine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"streetAddress": "68 Avenue Alsace-Lorraine"
+		  },
+		  "openingHours": "Mo-Fr 10:00-19:00"
+		  "telephone": "05 56 67 78 89",
+		  "url": "https://samueltussing.github.io/SEO_NinaCarducci/"
+	</script>
+	
 	<!-- Balise pour la géoloc voir Rich Snippet Google -->
 
 </head>
@@ -83,31 +105,31 @@
 		</button>
 	</section>
 </article>
-<article id="about">
+<article itemscope itemtype="http://schema.org/Person" id="about">
 	<div class="picture left">
-		<img src="./assets/images/portrait-nina-carducci-photographe-400px-min.jpg" alt="Portrait Nina Carducci - photographe" title="Portrait de Nina Carduci">
+		<img itemtype="portrait" src="./assets/images/portrait-nina-carducci-photographe-400px-min.jpg" alt="Portrait Nina Carducci - photographe" title="Portrait de Nina Carduci">
 
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
-		<span class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</span>
+		<span itemprop="description" class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</span>
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
 </article>
-<article id="gallery">
+<article itemscope itemtype="http://schema.org/ImageObject" id="gallery">
 	<h2 class="title">Portfolio</h2>
 	<section class="container py-3">
 		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/min/festival-de-musique-nina-carducci-440px-min.jpg" alt="Photo festival de musique Nina Carducci - photographe" title="Festival de musique - Nina Carducci">
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/min/business-portrait-nina-carducci-440px-min.jpg" alt="Portrait entreprise d'un homme en costume de Nina Carducci - photographe" title="Portrait entreprise - Nina Carducci">
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/min/portrait-femme-nina-carducci-440px-min.jpg" alt="Portrait entreprise d'une femme de Nina Carducci - photographe" title="Portrait corporate d'une femme - Nina Carducci">
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/min/photo-de-mariage-nina-carducci-440px-min.jpg" alt="Photo des mains des mariés" title="Photo mains des mariés avec alliances - Nina Carducci">
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/min/photo-portrait-nina-carducci-440px-min.jpg" alt="Portrait d'un homme les yeux fermés" title="Portrait d'un homme les yeux fermés - Nina Carducci">
-			<img data-gallery-tag="Mariages" class="gallery-item" srcset="./assets/images/gallery/mariage/min/photo-evenementielle-nina-carducci-440px-min.jpg" alt="Photo des mariés sur la plage" title="Photo des mariés sur la plage - Nina Carducci">
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/min/photographe-portrait-nina-carducci-440px-min.jpg" alt="Portrait d'une femme avec grillage" title="Portrait street d'une femme avec lunette - Nina Carducci">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/min/photo-concert-nina-carducci-440px-min.jpg" alt="Photo d'un chanteur en concert Nina Carducci - photographe" title="Photo d'un chanteur sur scène - Nina Carducci">
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/min/portrait-corporate-nina-carducci-440px-min.jpg" alt="Portrait corporate d'une femme souriante de Nina Carducci - photographe" title="Portrait corporate d'une femme souriante - Nina Carducci">
+			<img itemtype="Photograph" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/min/festival-de-musique-nina-carducci-440px-min.jpg" alt="Photo festival de musique Nina Carducci - photographe" title="Festival de musique - Nina Carducci">
+			<img itemtype="Photograph" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/min/business-portrait-nina-carducci-440px-min.jpg" alt="Portrait entreprise d'un homme en costume de Nina Carducci - photographe" title="Portrait entreprise - Nina Carducci">
+			<img itemtype="Photograph" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/min/portrait-femme-nina-carducci-440px-min.jpg" alt="Portrait entreprise d'une femme de Nina Carducci - photographe" title="Portrait corporate d'une femme - Nina Carducci">
+			<img itemtype="Photograph" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/min/photo-de-mariage-nina-carducci-440px-min.jpg" alt="Photo des mains des mariés" title="Photo mains des mariés avec alliances - Nina Carducci">
+			<img itemtype="Photograph" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/min/photo-portrait-nina-carducci-440px-min.jpg" alt="Portrait d'un homme les yeux fermés" title="Portrait d'un homme les yeux fermés - Nina Carducci">
+			<img itemtype="Photograph" data-gallery-tag="Mariages" class="gallery-item" srcset="./assets/images/gallery/mariage/min/photo-evenementielle-nina-carducci-440px-min.jpg" alt="Photo des mariés sur la plage" title="Photo des mariés sur la plage - Nina Carducci">
+			<img itemtype="Photograph" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/min/photographe-portrait-nina-carducci-440px-min.jpg" alt="Portrait d'une femme avec grillage" title="Portrait street d'une femme avec lunette - Nina Carducci">
+			<img itemtype="Photograph" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/min/photo-concert-nina-carducci-440px-min.jpg" alt="Photo d'un chanteur en concert Nina Carducci - photographe" title="Photo d'un chanteur sur scène - Nina Carducci">
+			<img itemtype="Photograph" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/min/portrait-corporate-nina-carducci-440px-min.jpg" alt="Portrait corporate d'une femme souriante de Nina Carducci - photographe" title="Portrait corporate d'une femme souriante - Nina Carducci">
 		</div>
 	</section>
 	<div class="quote">
@@ -122,34 +144,36 @@
 <article id="services">
 	<h2 class="title">Mes services</h2>
 	<section class="container">
-		<div class="service">
+
+		<div itemtype="Offer" class="service">
 			<div class="service__description">
-				<h3>Shooting photo</h3>
-				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
+				<h3 itemprop="name">Shooting photo</h3>
+				<p itemprop="description">Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 			</div>
 			<div class="service__price">
-				<h3>350€/demi journée</h3>
+				<h3 itemprop="price">350€/demi journée</h3>
 				<p>Matériel, déplacement inclus</p>
 			</div>
-
 		</div>
-		<div class="service">
+
+		<div itemtype="Offer" class="service">
 			<div class="service__description">
-				<h3>Retouches</h3>
-				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
+				<h3 itemprop="name">Retouches</h3>
+				<p itemprop="description">Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 			</div>
 			<div class="service__price">
-				<h3>50€/photo</h3>
+				<h3 itemprop="price">50€/photo</h3>
 				<p>2 AR par photo</p>
 			</div>
 		</div>
-		<div class="service">
+
+		<div itemtype="Offer" class="service">
 			<div class="service__description">
-				<h3>Album photos</h3>
-				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
+				<h3 itemprop="name">Album photos</h3>
+				<p itemprop="description">Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 			</div>
 			<div class="service__price">
-				<h3>400€ album A4</h3>
+				<h3 itemprop="price">400€ album A4</h3>
 				<p>30 pages recto/verso</p>
 			</div>
 		</div>
