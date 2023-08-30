@@ -3,24 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	
-	<script src="./assets/bootstrap/bootstrap.bundle.js" async></script>
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js" defer></script>
-	<script src="./assets/scripts.js" defer></script>
 
 	<!-- Open Graph data pour Insta et Fb-->
 	<meta property="og:title" content="Nina Carducci - Photographe professionnel sur Bordeaux.">
 	<meta property="og:type" content="website">
 	<meta property="og:locale" content="fr_FR">
-	<meta property="author" content="OpenClassRooms">
 	<meta property="og:url" content="https://github.com/SamuelTussing/SEO_NinaCarducci">
 	<meta property="og:image"
 		content="https://github.com/SamuelTussing/SEO_NinaCarducci/assets/images/portrait-nina-carducci-photographe-400px-min">
@@ -33,7 +26,7 @@
 
 	<!-- Balises pour le SEO -->
 	<link rel="canonical" href="https://github.com/SamuelTussing/SEO_NinaCarducci">
-	<title>Nina Carducci - Photographe évènementielle à Bordeaux : Shooting photo, retouche et création d'album photo pour immortaliser tous vos instants de bonheur</title>
+	<title>Nina Carducci - Photographe évènementielle à Bordeaux : Shooting photo, retouche et création d'album photo</title>
 	<meta name="description"
 		content="Immortalisez vos moments de bonheur et créez un album photo qui vous ressemble. Nina Carducci est une photographe professionnelle qui immortalise ces moments précieux qui rythment nos vies et nous font vibrer." />
 	    <meta name="keywords" content="photographe, photo, évènementielle, portrait" />
@@ -61,6 +54,9 @@
 	</script>
 	
 	<!-- Balise pour la géoloc voir Rich Snippet Google -->
+	<meta itemprop="name" content="Nina Carducci - Photographe portraits et événements">
+	<meta itemprop="description" content="Découvrez une photographe spécialisée dans les portraits et évènements. Des images captivantes pour vos moments importants. Contactez-moi pour réserver une séance photo ou couvrir vos évènements spéciaux.">
+	<meta itemprop="image" content="https://github.com/SamuelTussing/SEO_NinaCarducci/assets/images/portrait-nina-carducci-photographe-400px-min">
 
 </head>
 <body>
@@ -107,7 +103,7 @@
 </article>
 <article itemscope itemtype="http://schema.org/Person" id="about">
 	<div class="picture left">
-		<img itemtype="portrait" src="./assets/images/portrait-nina-carducci-photographe-400px-min.jpg" alt="Portrait Nina Carducci - photographe" title="Portrait de Nina Carduci">
+		<img itemtype="image" src="./assets/images/portrait-nina-carducci-photographe-400px-min.jpg" alt="Portrait Nina Carducci - photographe" title="Portrait de Nina Carduci">
 
 	</div>
 	<div id="about-me">
@@ -145,7 +141,7 @@
 	<h2 class="title">Mes services</h2>
 	<section class="container">
 
-		<div itemtype="Offer" class="service">
+		<div itemscope itemtype="http://schema.org/Offer" class="service">
 			<div class="service__description">
 				<h3 itemprop="name">Shooting photo</h3>
 				<p itemprop="description">Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
@@ -156,7 +152,7 @@
 			</div>
 		</div>
 
-		<div itemtype="Offer" class="service">
+		<div itemscope itemtype="http://schema.org/Offer" class="service">
 			<div class="service__description">
 				<h3 itemprop="name">Retouches</h3>
 				<p itemprop="description">Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
@@ -167,7 +163,7 @@
 			</div>
 		</div>
 
-		<div itemtype="Offer" class="service">
+		<div itemscope itemtype="http://schema.org/Offer" class="service">
 			<div class="service__description">
 				<h3 itemprop="name">Album photos</h3>
 				<p itemprop="description">Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
@@ -203,13 +199,14 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<picture>
-				<source srcset="./assets/images/nina-carducci-photographe-400px.webp" type="image/webp">
-				<source srcset="./assets/images/nina-carducci-photographe-400px-min.jpg">
 				<img src="./assets/images/nina-carducci-photographe-400px-min.jpg" alt="Photo d'un appareil photo reflexe" title="Nina Carducci Photographe évènementielle et portrait">
-			</picture>
 		</div>
 	</section>
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" ></script>
+<script src="./assets/maugallery.min.js" ></script>
+<script src="./assets/scripts.min.js" ></script>
+<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 </body>
 </html>
