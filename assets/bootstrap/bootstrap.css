@@ -3978,7 +3978,8 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #BEB45A;
+  background-color: #8a8343;
+  font-size: 18px;
 }
 
 .nav-fill > .nav-link,
