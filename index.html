@@ -7,7 +7,7 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 
 	<!-- Open Graph data pour Insta et Fb-->
@@ -198,10 +198,9 @@
 		  "description": "Photographe professionnelle basée à Bordeaux.",
 		  "address": {
 			"@type": "PostalAddress",
-			"adressCountry": "FR",
 			"adressRegion": "Nouvelle-Aquitaine",
-			"addressLocality": "Bordeaux",
-			"postalCode": "33200",
+			"addressLocality": "Bordeaux, France",
+			"postalCode": "F-33200",
 			"streetAddress": "68 Avenue Alsace-Lorraine"
 		  },
 		  "openingHours": "Mo-Fr 10:00-19:00",
