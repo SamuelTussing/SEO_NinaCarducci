@@ -7,8 +7,8 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<link async rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 
 	<!-- Open Graph data pour Insta et Fb-->
 	<meta property="og:title" content="Nina Carducci - Photographe professionnel sur Bordeaux.">
@@ -28,16 +28,16 @@
 	<link rel="canonical" href="https://github.com/SamuelTussing/SEO_NinaCarducci">
 	<title>Nina Carducci - Photographe évènementielle à Bordeaux : Shooting photo, retouche et création d'album photo</title>
 	<meta name="description"
-		content="Immortalisez vos moments de bonheur et créez un album photo qui vous ressemble. Nina Carducci est une photographe professionnelle qui immortalise ces moments précieux qui rythment nos vies et nous font vibrer." />
+		content="Immortalisez vos moments de bonheur et créez un album photo qui vous ressemble. Nina Carducci est une photographe professionnelle qui immortalise ces moments précieux qui nous font vibrer." />
 	    <meta name="keywords" content="photographe, photo, évènementielle, portrait" />
     <meta name="author" content="Nina Carducci" />
 
 	
 	
 	<!-- Balise pour la géoloc voir Rich Snippet Google -->
-	<meta itemprop="name" content="Nina Carducci - Photographe portraits et événements">
-	<meta itemprop="description" content="Découvrez une photographe spécialisée dans les portraits et évènements. Des images captivantes pour vos moments importants. Contactez-moi pour réserver une séance photo ou couvrir vos évènements spéciaux.">
-	<meta itemprop="image" content="https://github.com/SamuelTussing/SEO_NinaCarducci/assets/images/portrait-nina-carducci-photographe-400px-min">
+	<meta content="Nina Carducci - Photographe portraits et événements">
+	<meta content="Découvrez une photographe spécialisée dans les portraits et évènements. Des images captivantes pour vos moments importants. Contactez-moi pour réserver une séance photo ou couvrir vos évènements spéciaux.">
+	<meta content="https://github.com/SamuelTussing/SEO_NinaCarducci/assets/images/portrait-nina-carducci-photographe-400px-min">
 
 </head>
 <body>
@@ -53,9 +53,9 @@
 		</ul>
 	</div>
 </header>
-<article id="header">
+<div id="header">
 
-	<section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -80,35 +80,35 @@
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
 			<span class="visually-hidden">Next</span>
 		</button>
-	</section>
-</article>
-<article itemscope itemtype="http://schema.org/Person" id="about">
+	</div>
+</div>
+<article id="about">
 	<div class="picture left">
-		<img itemtype="image" src="./assets/images/portrait-nina-carducci-photographe-400px-min.jpg" alt="Portrait Nina Carducci - photographe" title="Portrait de Nina Carduci">
+		<img src="./assets/images/portrait-nina-carducci-photographe-400px-min.jpg" alt="Portrait Nina Carducci - photographe" title="Portrait de Nina Carduci">
 
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
-		<span itemprop="description" class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</span>
+		<span class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</span>
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
 </article>
 <article itemscope itemtype="http://schema.org/ImageObject" id="gallery">
 	<h2 class="title">Portfolio</h2>
-	<section class="container py-3">
+	<div class="container py-3">
 		<div class="gallery" style="display: none">
-			<img loading="lazy" itemtype="Photograph" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/min/festival-de-musique-nina-carducci-440px-min.avif" alt="Photo festival de musique Nina Carducci - photographe" title="Festival de musique - Nina Carducci">
-			<img loading="lazy" itemtype="Photograph" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/min/business-portrait-nina-carducci-440px-min.avif" alt="Portrait entreprise d'un homme en costume de Nina Carducci - photographe" title="Portrait entreprise - Nina Carducci">
-			<img loading="lazy" itemtype="Photograph" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/min/portrait-femme-nina-carducci-440px-min.jpg" alt="Portrait entreprise d'une femme de Nina Carducci - photographe" title="Portrait corporate d'une femme - Nina Carducci">
-			<img loading="lazy" itemtype="Photograph" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/min/photo-de-mariage-nina-carducci-440px-min.jpg" alt="Photo des mains des mariés" title="Photo mains des mariés avec alliances - Nina Carducci">
-			<img loading="lazy" itemtype="Photograph" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/min/photo-portrait-nina-carducci-440px-min.jpg" alt="Portrait d'un homme les yeux fermés" title="Portrait d'un homme les yeux fermés - Nina Carducci">
-			<img loading="lazy" itemtype="Photograph" data-gallery-tag="Mariages" class="gallery-item" srcset="./assets/images/gallery/mariage/min/photo-evenementielle-nina-carducci-440px-min.jpg" alt="Photo des mariés sur la plage" title="Photo des mariés sur la plage - Nina Carducci">
-			<img loading="lazy" itemtype="Photograph" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/min/photographe-portrait-nina-carducci-440px-min.jpg" alt="Portrait d'une femme avec grillage" title="Portrait street d'une femme avec lunette - Nina Carducci">
-			<img loading="lazy" itemtype="Photograph" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/min/photo-concert-nina-carducci-440px-min.jpg" alt="Photo d'un chanteur en concert Nina Carducci - photographe" title="Photo d'un chanteur sur scène - Nina Carducci">
-			<img loading="lazy" itemtype="Photograph" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/min/portrait-corporate-nina-carducci-440px-min.jpg" alt="Portrait corporate d'une femme souriante de Nina Carducci - photographe" title="Portrait corporate d'une femme souriante - Nina Carducci">
+			<img loading="lazy" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/min/festival-de-musique-nina-carducci-440px-min.avif" alt="Photo festival de musique Nina Carducci - photographe" title="Festival de musique - Nina Carducci">
+			<img loading="lazy" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/min/business-portrait-nina-carducci-440px-min.avif" alt="Portrait entreprise d'un homme en costume de Nina Carducci - photographe" title="Portrait entreprise - Nina Carducci">
+			<img loading="lazy" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/min/portrait-femme-nina-carducci-440px-min.jpg" alt="Portrait entreprise d'une femme de Nina Carducci - photographe" title="Portrait corporate d'une femme - Nina Carducci">
+			<img loading="lazy" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/min/photo-de-mariage-nina-carducci-440px-min.jpg" alt="Photo des mains des mariés" title="Photo mains des mariés avec alliances - Nina Carducci">
+			<img loading="lazy" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/min/photo-portrait-nina-carducci-440px-min.jpg" alt="Portrait d'un homme les yeux fermés" title="Portrait d'un homme les yeux fermés - Nina Carducci">
+			<img loading="lazy" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/min/photo-evenementielle-nina-carducci-440px-min.jpg" alt="Photo des mariés sur la plage" title="Photo des mariés sur la plage - Nina Carducci">
+			<img loading="lazy" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/min/photographe-portrait-nina-carducci-440px-min.jpg" alt="Portrait d'une femme avec grillage" title="Portrait street d'une femme avec lunette - Nina Carducci">
+			<img loading="lazy" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/min/photo-concert-nina-carducci-440px-min.jpg" alt="Photo d'un chanteur en concert Nina Carducci - photographe" title="Photo d'un chanteur sur scène - Nina Carducci">
+			<img loading="lazy" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/min/portrait-corporate-nina-carducci-440px-min.jpg" alt="Portrait corporate d'une femme souriante de Nina Carducci - photographe" title="Portrait corporate d'une femme souriante - Nina Carducci">
 		</div>
-	</section>
+	</div>
 	<div class="quote">
 		<figure>
 			<blockquote>
@@ -156,20 +156,20 @@
 		</div>
 	</section>
 </article>
-<article class="quote">
+<div class="quote">
 	<figure>
 		<blockquote>
 			<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
-</article>
+</div>
 <footer id="contact">
 	<section class="container">
 		<div class="form-container">
 			<h3>Une question ? Une demande de devis ?</h3>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-			<form action="" method="post">
+			<form method="post">
 				<label for="nom">Nom</label>
 				<input type="text" name="nom" id="nom">
 				<label for="email">Email</label>
