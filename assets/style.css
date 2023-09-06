@@ -1,6 +1,7 @@
 body {
 	max-width: 1920px;
 	margin: auto;
+	overflow-x: hidden;
 }
 * {
 	font-family: 'Inter';
