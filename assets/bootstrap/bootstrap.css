@@ -595,7 +595,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  
 }
 
 .img-thumbnail {
@@ -5556,7 +5556,7 @@ textarea.form-control-lg {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .modal-footer {
@@ -7350,7 +7350,7 @@ textarea.form-control-lg {
 }
 
 .mb-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 0rem !important;
 }
 
 .mb-5 {
